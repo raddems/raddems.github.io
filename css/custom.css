@@ -1,0 +1,38 @@
+
+
+.navbar div {
+  background-color: #2a327b;
+}
+
+img.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+  .navbar img {
+    width: 400px;
+  }
+
+@media (min-width: 576px) {
+  .navbar img {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar img {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar img {
+    width: 828px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /*  max-width: 1140px; */
+}
+
